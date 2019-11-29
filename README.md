@@ -12,6 +12,10 @@ We recommend that you experience our technology with Windows 10.
 
 The picture above is the interface of MyCSharpBrowser3.
 
+![1574992783563](./assets/1574992783563.png)
+
+CSharp Browser supports developers to host WinForm applications in browser tabs so that users can open WinForm applications by accessing URLs.
+
 ## How to build your own browser?
 You first need a computer with Windows 10 and Visual Studio 2019 installed. The following Visual Studio installation items are essential. 
 
