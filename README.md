@@ -1,10 +1,10 @@
 # CSharp-Browser
-CSharp Browser is a Chromium-based open-source browser that supports Microsoft.NET development. It allows developers to extend this browser using Microsoft.NET desktop technology and build hybrid web pages based on Microsoft.NET and Web.
+CSharp Browser is a Modern Internet Browser Development Framework based on Chromium Open-Source Project, the target of this project is to enable .NET developer building his own internet browser using Microsoft.NET desktop technology and build hybrid web pages based on Microsoft.NET and Web. CSharp Browser have two versions, one is open-source, another is commercial, detail information please visit our github and our website: http://www.tangram.dev.
 
 ## How to work?
 CSharp Browser provides a new approach to desktop development using Chromium. You can download our preview package for experience.
 
-Make sure your computer is Windows 7, Windows 8.1 or Windows 10, and has .NET Framework 4 or later, and Windows SDK 10.0.18362.0. Extract the downloaded preview package to any location and run the demo MyCSharpBrowser1 to MyCSharpBrowser3. The source code of demos is located in the Sources directory.
+Make sure your computer is Windows 7, Windows 8.1 or Windows 10, and has .NET Framework 4 or later. Extract the downloaded preview package to any location and run the demo MyCSharpBrowser1 to MyCSharpBrowser3. The source code of demos is located in the Sources directory.
 
 We recommend that you experience our technology with Windows 10.
 
