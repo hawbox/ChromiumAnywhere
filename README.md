@@ -1,5 +1,5 @@
 # CSharp-Browser
-CSharp Browser is a Modern Internet Browser Development Framework based on Chromium Open-Source Project, the target of this project is to enable .NET developer building his own internet browser using Microsoft.NET desktop technology and build hybrid web pages based on Microsoft.NET and Web. CSharp Browser have two versions, one is open-source, another is commercial, detail information please visit our github and our website: http://www.tangram.dev.
+CSharp Browser is a Modern Internet Browser Development Framework based on Chromium Open-Source Project, the target of this project is to enable .NET developer building his own internet browser using Microsoft.NET desktop technology and build hybrid web pages based on Microsoft.NET and Web. CSharp Browser has two editions, one is open-source, another is commercial, detail information please visit our GitHub and our website: https://www.tangram.dev.
 
 ## How to work?
 CSharp Browser provides a new approach to desktop development using Chromium. You can download our preview package for experience.
