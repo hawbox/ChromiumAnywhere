@@ -14,11 +14,11 @@ Customized New Tab Page in MyCSharpBrowser3.
 
 ![1574992783563](./assets/1574992783563.png)
 
-CSharp Browser enable developers to host WinForm applications in browser tabs so that users can open WinForm applications by accessing URLs.
+CSharp Browser enables developers to host WinForm applications in browser tabs so that users can open WinForm applications by accessing URLs.
 
 ![1574996826920](./assets/1574996826920.png)
 
-CSharp Browser connects C# and Webpage, enable developers to build user interfaces using C# and drive them using HTML and Javascript, include handle events and transfer data.
+CSharp Browser connects C# and Webpage, enables developers to build user interfaces using C# and drives them using HTML and Javascript, include handle events and transfer data.
 
 ## How to build your own browser?
 You first need a computer with Windows 10 and Visual Studio 2019 installed. The following Visual Studio installation items are essential. 
