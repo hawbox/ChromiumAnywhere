@@ -28,19 +28,31 @@ You first need a computer with Windows 10 and Visual Studio 2019 installed. The 
   - Visual C++ MFC for x86 and x64
   - C++/CLI support
 
-Also make sure you have the correct version of the Windows SDK installed.
+Also make sure you have the latest version of the Windows SDK installed.
 
-Create a WinForm project (.NET Framework) using Visual Studio. And reference to TangramCLR.dll.
+Download [tangram_runtime_chromium_78_1.0.0.zip](https://github.com/TangramDev/tangram_runtime_binaries/releases/download/v1.0.0/tangram_runtime_chromium_78_1.0.0.zip) and extract it to the `C:\src` directory.
 
-![1574648937610](./assets/1574648937610.png)
+![1575881041581](assets/1575881041581.png)
+
+Create a WinForm project (.NET Framework) using Visual Studio. And reference to `tangram_clr_rt.dll`(Located at `C:\src\tangram_runtime_chromium_78_1.0.0\`).
+
+![1575881346373](assets/1575881346373.png)
 
 Change platform target to x64.
 
 ![1574652601065](./assets/1574652601065.png)
 
+Update the Output path to `C:\src\tangram_runtime_chromium_78_1.0.0\`.
+
+![1575881439998](assets/1575881439998.png)
+
 Use Tangram to take over the WinForm message loop.
 
 ```c#
+using TangramCLR;
+
+...
+
 static void Main()
 {
     Application.EnableVisualStyles();
@@ -49,14 +61,14 @@ static void Main()
 }
 ```
 
-Build project, in general, the compiled results will be output to the bin\Debug\ directory. Download chromium.zip and extract it to the bin\Debug\ directory. Run the WinForm program.
+Build and run the WinForm program.
 
 ![1575876429662](assets/1575876429662.png)
 
 A Chromium window will open. Next, we add the following code to customize the New Tab Page.
 
 ```c#
-Tangram.UpdateNewTabPageLayout(layoutXML); // New line
+Tangram.UpdateNewTabPageLayout("Default.xml"); // New line
 Application.Run(Tangram.Context);
 ```
 
