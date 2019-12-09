@@ -8,17 +8,17 @@ Make sure your computer is Windows 7, Windows 8.1 or Windows 10, and has .NET Fr
 
 We recommend that you experience our technology with Windows 10.
 
-![1574833869285](./assets/1574833869285.png)
+![1575876661437](assets/1575876661437.png)
 
 Customized New Tab Page in MyCSharpBrowser3.
 
-![1574992783563](./assets/1574992783563.png)
+![1575876785728](assets/1575876785728.png)
 
-CSharp Browser enables developers to host WinForm applications in browser tabs so that users can open WinForm applications by accessing URLs.
+CSharp Browser enable developers to host WinForm applications in browser tabs so that users can open WinForm applications by accessing URLs.
 
-![1574996826920](./assets/1574996826920.png)
+![1575876910211](assets/1575876910211.png)
 
-CSharp Browser connects C# and Webpage, enables developers to build user interfaces using C# and drives them using HTML and Javascript, include handle events and transfer data.
+CSharp Browser connects C# and Webpage, enable developers to build user interfaces using C# and drive them using HTML and Javascript, include handle events and transfer data.
 
 ## How to build your own browser?
 You first need a computer with Windows 10 and Visual Studio 2019 installed. The following Visual Studio installation items are essential. 
@@ -51,7 +51,7 @@ static void Main()
 
 Build project, in general, the compiled results will be output to the bin\Debug\ directory. Download chromium.zip and extract it to the bin\Debug\ directory. Run the WinForm program.
 
-![1574749320507](./assets/1574749320507.png)
+![1575876429662](assets/1575876429662.png)
 
 A Chromium window will open. Next, we add the following code to customize the New Tab Page.
 
@@ -76,7 +76,7 @@ UpdateNewTabPageLayout needs to pass in an XML string, similar to the following:
 
 Build and run the WinForm program again.
 
-![1574745234980](./assets/1574745234980.png)
+![1575876448084](assets/1575876448084.png)
 
 The Form1 will be displayed on the left side of the browser window. Take a look at Form1.
 
