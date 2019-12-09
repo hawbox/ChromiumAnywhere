@@ -72,7 +72,7 @@ Tangram.UpdateNewTabPageLayout("Default.xml"); // New line
 Application.Run(Tangram.Context);
 ```
 
-UpdateNewTabPageLayout needs to pass in an XML string, similar to the following:
+UpdateNewTabPageLayout needs to pass in an XML file, similar to the following:
 
 ```xml
 <?xml version="1.0" encoding="utf-8" ?>
@@ -85,6 +85,8 @@ UpdateNewTabPageLayout needs to pass in an XML string, similar to the following:
   </window>
 </ntp>
 ```
+
+Save this XML as a file named `Default.xml` and copy it to the `C:\src\tangram_runtime_chromium_78_1.0.0\Default.xml`, Remember to update the `cnnid` in this XML.
 
 Build and run the WinForm program again.
 
