@@ -61,13 +61,13 @@ Download [tangram_runtime_chromium_78_1.0.1.zip](https://github.com/TangramDev/t
 
 You can create three types of projects.
 
-- Windows Forms App (.NET Framework)
-- WPF App (.NET Framework)
-- MFC App
+- [Windows Forms App (.NET Framework)](Cxx_and_CSharp_Browser.md#winform)
+- [WPF App (.NET Framework)](Cxx_and_CSharp_Browser.md#wpf)
+- [MFC App](Cxx_and_CSharp_Browser.md#mfc)
 
 Please choose one you are familiar with.
 
-### Windows Forms App (.NET Framework)
+### [Windows Forms App (.NET Framework)](#winform)
 
 Create a Windows Forms App (.NET Framework) project using Visual Studio. And reference to `tangram_clr_rt.dll`(Located at `C:\src\tangram_runtime_chromium_78_1.0.0\`).
 
@@ -131,7 +131,7 @@ The Form1 will be displayed on the left side of the browser window. Take a look 
 
 ![1574747262749](assets/1574747262749.png)
 
-### WPF App (.NET Framework)
+### [WPF App (.NET Framework)](#wpf)
 
 Create a WPF App (.NET Framework) project using Visual Studio. And reference to `tangram_clr_rt.dll`(Located at `C:\src\tangram_runtime_chromium_78_1.0.0\`).
 
@@ -203,7 +203,7 @@ Build and run this WPF program again.
 
 ![1576045948759](assets/1576045948759.png)
 
-### MFC App
+### [MFC App](#mfc)
 
 Create a MFC App project using Visual Studio.
 
