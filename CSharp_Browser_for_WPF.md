@@ -6,7 +6,7 @@ CSharp Browser is a browser development framework based on the Chromium open sou
 
 CSharp Browser enables developers to run WPF in a browser window, fill the whole window, or share it with a web page. Unlike Silverlight, in the CSharp browser, WPF is displayed directly in the browser window without recompilation. Besides being displayed in the browser, it is no different from the standard WPF. But its advantage is that WPF can communicate with the HTML page freely, and customers can open WPF applications through URL.
 
-To experience the CSharp Browser, you first need to make sure your computer is WIndows 7, Windows 8.1 or Windows 10, and has .NET Framework 4 or later. Download and extract the preview package to any location and run the demo MyWpfBrowser1 to MyWpfBrowser3. If everything is OK, you will see the following pictures.
+To experience the CSharp Browser, you first need to make sure your computer is WIndows 7, Windows 8.1 or Windows 10, and has .NET Framework 4 or later. Download and extract the [preview package](https://github.com/TangramDev/tangram_runtime_binaries/releases) to any location and run the demo MyWpfBrowser1 to MyWpfBrowser3. If everything is OK, you will see the following pictures.
 
 ![1576045003428](assets/1576045003428.png)
 
@@ -31,7 +31,7 @@ You first need a computer with Windows 10 and Visual Studio 2019 installed. The 
 
 Also make sure you have the latest version of the Windows SDK installed.
 
-Download [tangram_runtime_chromium_78_1.0.0.zip](https://github.com/TangramDev/tangram_runtime_binaries/releases/download/v1.0.0/tangram_runtime_chromium_78_1.0.0.zip) and extract it to the `C:\src`directory.
+Download [tangram_runtime_chromium_78_X.Y.Z.zip](https://github.com/TangramDev/tangram_runtime_binaries/releases) and extract it to the `C:\src`directory.
 
 ![1575881041581](assets/1575881041581.png)
 

@@ -6,7 +6,7 @@ C++&C# Browser is a browser development framework based on the Chromium open sou
 
 C++&C# Browser enables developers to run desktop components (include MFC/WinForm/WPF) in the browser tab window, use desktop components to occupy the entire tab window or make desktop components and web pages share window area in a grid layout. Desktop components can communicate with web pages and other components. Developers can use HTML to drive these desktop components.
 
-To experience the C++&C# Browser, you first need to make sure your computer is Windows 7, Windows 8.1 or Windows 10. Download and extract the preview package to any location. The package includes sample programs for WinForm, WPF, and MFC, named MyCSharpBrowserN, MyWpfBrowserN, and MyCxxBrowserN, respectively. Run each program and you will see
+To experience the C++&C# Browser, you first need to make sure your computer is Windows 7, Windows 8.1 or Windows 10. Download and extract the [preview package](https://github.com/TangramDev/tangram_runtime_binaries/releases) to any location. The package includes sample programs for WinForm, WPF, and MFC, named MyCSharpBrowserN, MyWpfBrowserN, and MyCxxBrowserN, respectively. Run each program and you will see
 
 ![1575876661437](assets/1575876661437.png)
 
@@ -55,7 +55,7 @@ C++&C# Browser enables developers to build their own browsers using WinForm, WPF
 
 Also make sure you have the latest version of the Windows SDK installed. 
 
-Download [tangram_runtime_chromium_78_1.0.1.zip](https://github.com/TangramDev/tangram_runtime_binaries/releases/download/v1.0.0/tangram_runtime_chromium_78_1.0.0.zip) and extract it to the `C:\src` directory.
+Download [tangram_runtime_chromium_78_X.Y.Z.zip](https://github.com/TangramDev/tangram_runtime_binaries/releases) and extract it to the `C:\src` directory.
 
 ![1575881041581](assets/1575881041581.png)
 
